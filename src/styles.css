@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+  }
+
+  h1{
+      font-size: 60px;
+      font-family: 'Open Sans', sans-serif;
+  }
+  input {
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+  }
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+  
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+
+  /* Darker background-color on hover */
+  ul li:hover {
+    background: #ddd;
+  }
+  
